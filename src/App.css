@@ -1,11 +1,76 @@
-.App {
-  text-align: center;
+body {
+  background: #FAFFFC;
+  font-size: 20px;
+  color: #003319;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4, h5, h6 {
+  font-variant: small-caps;
+  color: #FA7921;
 }
+
+h1 { font-size: 2.488rem; }
+h2 { font-size: 2.074rem; }
+h3 { font-size: 1.728rem; }
+h4 { font-size: 1.44rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 0.833rem; }
+
+input, p, option { font-size: 1rem; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #00A651;
+  padding: 15px 30px;
+}
+
+.logo {
+  margin: 0 15px; 
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 15px; 
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+nav a:link, nav a:visited { color: #F4E04D; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+section {
+  padding: 30px; 
+}
+
+
+/* Forms */
+
+label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+input, select, textarea {
+  display: block;
+  border: 1px solid #BEBEBE;
+  border-radius: 5px;
+  padding: 10px; 
+  width: 50%;
+}
+textarea {
+  height: 200px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
